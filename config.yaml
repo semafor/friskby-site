@@ -1,0 +1,9 @@
+baseurl: "http://friskby.no"
+languageCode: "nb-no"
+title: "Friskby"
+theme: "friskby-theme"
+MetaDataFormat: "yaml"
+menu:
+  custom:
+    - Name: "Friskby"
+      URL: "/"
