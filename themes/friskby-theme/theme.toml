@@ -1,0 +1,12 @@
+name = "Friskby"
+license = "GPLv3"
+licenselink = "https://github.com/FriskByBergen/friskby-theme/blob/master/LICENSE"
+description = "Hugo theme for friskby."
+homepage = "https://github.com/FriskByBergen/friskby-theme"
+tags = ["friskby", "frisk luft"]
+features = []
+min_version = 0.17
+
+[author]
+    name = "Friskby"
+    homepage = "http://friskby.no"

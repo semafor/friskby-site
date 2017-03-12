@@ -1,0 +1,120 @@
+/* A small-screen first stylesheet. See style-wider.css and style-widest.css
+for styles fitting larger screens. */
+
+@font-face {
+    /* https://github.com/VanillaandCream/Palanquin (OFL) */
+    font-family: 'Palanquin-Medium';
+    src: url('../fonts/Palanquin-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    /* https://github.com/VanillaandCream/Palanquin (OFL) */
+    font-family: 'Palanquin-SemiBold';
+    src: url('../fonts/Palanquin-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    /* https://github.com/VanillaandCream/Palanquin (OFL) */
+    font-family: 'Palanquin-Regular';
+    src: url('../fonts/Palanquin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    /* https://github.com/VanillaandCream/Palanquin (OFL) */
+    font-family: 'Palanquin-ExtraLight';
+    src: url('../fonts/Palanquin-ExtraLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    font-family: "Palanquin-Regular", sans-serif;
+}
+
+header {
+    background-color: rgb(37,125,210);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(37,125,210);
+    font-weight: normal;
+    font-family: "Palanquin-ExtraLight", sans-serif;
+}
+
+.site-logo {
+    width: 130px;
+    height: 103px;
+    display: inline-block;
+    background-image: url("../img/logo.png");
+    margin: 0 auto;
+
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.gauge-number {
+    text-align: center;
+    font-size: 30pt;
+    font-family: "Palanquin-SemiBold", sans-serif;
+}
+
+.gauge-backdrop {
+    margin: 0 25%;
+    background: #ccc;
+    height: 20px;
+    position: relative;
+    padding: 0 2px;
+    border-radius: 10em;
+}
+
+.gauge {
+    position: relative;
+    top: 2px;
+    height: 16px;
+    background: linear-gradient(to right, #22bc03 0%,#d3c904 25%,#ed4204 50%,#a90329 75%,#6d0019 100%);
+    border-radius: 10em;
+    background-size: 0;
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+
+.what-is {
+    clear: left;
+}
+
+.what-is .part {
+}
+
+.what-is .part-title {
+    font-family: "Palanquin-Medium", sans-serif;
+    font-size: 14pt;
+    margin: 0 0 0 42px;
+}
+
+.what-is .part-description {
+    margin-left: 42px;
+    padding-right: 1em;
+
+}
+
+.what-is .part img {
+    width: 32px;
+    min-height: 32px;
+    vertical-align: top;
+    float: left;
+}
+
+#trend-chart {
+    min-width: 300px;
+    min-height: 150px;
+}

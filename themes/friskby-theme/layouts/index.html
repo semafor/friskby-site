@@ -1,0 +1,67 @@
+{{ partial "header.html" . }}
+<main>
+
+<section class="quality-now">
+
+    <h2>Luftforurensing i Bergen nå</h2>
+
+    <p class="gauge-number">0%</p>
+
+    <div class="gauge-backdrop">
+        <div class="gauge"></div>
+    </div>
+
+</section>
+
+<section class="trend">
+
+    <h2>Trend</h2>
+
+    <div id="trend-chart"></div>
+
+</section>
+
+<section class="sensors">
+
+    <h2>Sensors</h2>
+
+</section>
+
+<section class="what-is">
+
+    <h2>Hva er Friskby?</h2>
+
+    <div class="part is-development">
+        <img class="part-image" src="{{ .Site.BaseURL }}media/what-is/development.svg">
+        <p class="part-title">Utvikling og gjennomføring</p>
+        <p class="part-description">Utvikling og gjennomføring av et opplegg for læring for grunnskole, videregående skoler og høyskole</p>
+    </div>
+    <div class="part is-sensors">
+        <img src="{{ .Site.BaseURL }}media/what-is/device.svg">
+        <p class="part-title">Målestasjoner i hele Bergen</p>
+        <p class="part-description">Innkjøp, bygging og utplassering av målestasjoner for luftkvalitet over hele byen - med den type sensor som egner seg best</p>
+    </div>
+    <div class="part is-platform">
+        <img src="{{ .Site.BaseURL }}media/what-is/tool.svg">
+        <p class="part-title">Platform</p>
+        <p class="part-description">Utvikling av plattform for registrering og innsamling av data fra målestasjonene samt kalibrering og analyse av dataene.</p>
+    </div>
+    <div class="part is-platform">
+        <img src="{{ .Site.BaseURL }}media/what-is/graph.svg">
+        <p class="part-title">Visualisering</p>
+        <p class="part-description">Visualisering og sammenstilling av data i ulike kanaler, mobil-app, web etc.</p>
+    </div>
+    <div class="part is-platform">
+        <img src="{{ .Site.BaseURL }}media/what-is/communication.svg">
+        <p class="part-title">Kommunikasjon og PR</p>
+        <p class="part-description">Kommunikasjon og PR for å fremme Friskby-prosjektet og dets plass i streben for et friskere Bergen.</p>
+    </div>
+    <div class="part is-community">
+        <img src="{{ .Site.BaseURL }}media/what-is/community.svg">
+        <p class="part-title">Samfunn</p>
+        <p class="part-description">Bygge et samfunn rundt Friskby-prosjektet gjennom åpenhet og inkludering.</p>
+    </div>
+</section>
+
+</main>
+{{ partial "footer.html" . }}

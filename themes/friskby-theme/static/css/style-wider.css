@@ -1,0 +1,31 @@
+/* Larger devices */
+@media (min-width : 768px) {
+
+.quality-now {
+    width: 33.33%;
+    float: left;
+}
+
+.trend {
+    width: 33.33%;
+    float: left;
+}
+
+.sensors {
+    width: 33.33%;
+    float: left;
+}
+
+.what-is .part {
+    width: 33.33%;
+    float: left;
+    min-height: 120px;
+}
+
+.what-is:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+}
