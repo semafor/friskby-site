@@ -3,7 +3,9 @@ languageCode: "nb-no"
 title: "Friskby"
 theme: "friskby-theme"
 MetaDataFormat: "yaml"
+FriskbySiteURI: "http://10.0.3.73"
 menu:
   custom:
     - Name: "Friskby"
       URL: "/"
+canonifyURLs: true
